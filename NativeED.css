@@ -1,0 +1,100 @@
+  body{
+    margin:0;
+    padding:0;
+    font-family: Sans-Serif;
+    line-height: 1.5em;
+  }
+
+  #header {
+    background: red;
+    height: 100px;
+  }
+
+  #header h1 {
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  #mainwrapper {
+    overflow: hidden;
+  }
+
+  #contentwrapper{
+    float: left;
+    width: 100%;
+  }
+
+  #content {
+    margin-right: 460px; /* Width of '#rightmenu' and '#leftmenu' combined. */
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+  }
+
+  #leftmenu {
+    float: left;
+    width: 250px;
+    margin-left: -460px; /* Width of '#rightmenu' and '#leftmenu' combined. */
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: #grey;
+  }
+
+  #rightmenu {
+    float: left;
+    width: 210px;
+    margin-left: -210px;
+    padding-bottom: 10010px;
+    margin-bottom: -10000px;
+    background: silver;
+  }
+
+  #footer{
+    clear: left;
+    width: 100%;
+    background: red;
+    text-align: center;
+    padding: 5px 0;
+  }
+
+  .innertube{
+    margin: 15px; /* Padding for content */
+    margin-top: 0;
+  }
+
+
+  p {
+    color: black;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul a {
+    color: darkblue;
+    text-decoration: none;
+  }
+
+  h1 { font-size: 50px; color: black
+  }
+
+  h2 { font-size: 50px; color: black
+  }
+
+  h3 { font-size: 18px; color: black
+  }
+
+  h3 { font-size: 24px; color: black
+  }
+
+
+  a:link
+  a:focus
+  a:active {
+    color: yellow
+    text-decoration: none;
+  }
+
+</style>
